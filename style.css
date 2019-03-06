@@ -1,0 +1,19 @@
+body{margin:0; padding:0;}
+.header{background:url("img/bk.jpg") no-repeat;background-size:cover;background-position:center;background-attachment:fixed;}
+.container{width:80%;margin:0 auto;overflow:hidden;}
+.logo{width:20%; float:left;}
+.logo img{width:100%}
+.menu{width:70%;}
+.menu ul{}
+.menu ul li{list-style:none;float:left;}
+.menu ul li a{transition:.5s; text-decoration:none;font-size:18px;color:white;
+padding:0 12px;display:block;margin-top:35px;display:block; }
+.menu ul li:last child a{padding-right:0;}
+.menu ul li a:hover{color:red}
+.banner{background:url("img/bk.jpg") no-repeat;background-size:cover;background-position:center;background-attachment:fixed;}
+.banner_content{width:50%;margin-top:200px;margin-bottom:90px;}
+.banner_content h3{margin-top:0;margin-bottom:10px;font-size:40px;color:white;font-weight:400;font-family:sans-serif;}
+.banner_content h1{margin-top:0;margin-bottom:10px;font-family:sans-serif;color:blue;font-size:45px;}
+.banner_content p{font-family:sans-serif;color:white;font-size:16px;line-height:25px;}
+.banner_content button{background:rgba(255,255,255,0.2);width:150px;height:45px;padding:5px;transition:all 2s ease;font-size:25px;color:black;}
+.banner_content button:hover{background:rgb(0,0,255,0.3);cursor:pointer;color:white}
